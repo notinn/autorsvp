@@ -1,0 +1,14 @@
+type Group {
+    id: ID!
+}
+
+type Query {
+    groupByUrlname(urlname: String!): Group
+    self: User
+}
+
+type User {
+    id: ID!
+    name: String
+    isAdmin: Boolean
+}

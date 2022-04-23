@@ -1,0 +1,15 @@
+[package]
+name = "meetup_auto_rsvp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cynic = { version = "1.0.0", features = ["surf"]}
+# surf may not be compatible with GPLv2, if not, should rewrite to use direct queries via cynic
+surf = "2.0.0"
+async-std = "1.11.0"
+
+[dev-dependencies]
+insta = "1.14.0"

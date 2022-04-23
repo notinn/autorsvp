@@ -1,0 +1,8 @@
+/target
+/src/old main.rs
+/src/old*
+/src/new*
+/src/snapshots/*
+/schemas/d*
+/schemas/s*
+/settings/settings.txt
