@@ -1,6 +1,9 @@
 # autorsvp
 Rust command-line program to automatically RSVP new Meetup events
 
+Status update:
+I still haven't gotten meetup's API to respond and haven't heard back from Meetup. For the sake of completing the project I'm going to make a simple local graphQL server that imitates Meetup's API to finish implementation. I'll be starting on this soon after some classwork obligations.
+
 About the current state of the project:
   - Still learning to use GraphQL but having trouble with certain aspects.
   - Project as-is should demonstrate the general structure however.
